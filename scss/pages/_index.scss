@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body,
+html {
+  font-family: "Outfit";
+  overflow-x: hidden;
+}
+
+.top-title{
+  text-align: center;
+  margin: 30px 0;
+}
+.align-center{
+  text-align: center;
+}
+#box{
+  width: 60px;
+  background: goldenrod;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+
+  .my-progress-bar {
+    padding: 4px 8px;
+    border-radius: 25px;
+    background: black;
+    margin-bottom: 10px;
+    width: 50%;
+    margin: 0 auto;
+    .progress-vale {
+      height: 10px;
+      border-radius: 25px;
+      background: green;
+    }
+  }

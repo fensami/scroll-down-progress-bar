@@ -1,0 +1,14 @@
+@forward "pages/index";
+@forward "base/default";
+@forward "layout/navbar";
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 1.5rem;
+}
+.custom-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.under-line {
+  text-decoration: underline;
+}
